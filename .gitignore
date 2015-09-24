@@ -1,0 +1,15 @@
+# meta files
+.DS_Store
+.allow-devtools-edit
+.history
+.jshintrc
+
+# logs
+logs
+log
+newrelic_agent.log
+
+# npm
+node_modules
+npm-debug.log
+

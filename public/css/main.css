@@ -1,0 +1,16 @@
+html, body  {
+  background-color: #222;
+  color: #eee;
+  font-size: 32px;
+  height: 100%;
+  width: 100%;
+}
+
+.slide {
+  height: 100%;
+  width: 100%;
+}
+
+figure img {
+  width: 100%;
+}

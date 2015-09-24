@@ -1,0 +1,139 @@
+{{#extend "stylesheets"}}
+  <link rel="stylesheet" href="/css/basscss.min.css">
+  <link rel="stylesheet" href="/css/main.css">
+{{/extend}}
+
+<secion id="presentation" class="presentation">
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">SVG Sprites for icons</h1>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">What's a Sprite</h1>
+      <p class="col-8 h3 mx-auto">
+        An image sprite is a collection of images put into a single image. We do
+        this to reduce HTTP requests.
+      </p>
+      <p class="col-8 h3 center mx-auto">
+        Like this,
+      </p>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <figure class="col-3 center mx-auto bg-white p3">
+        <img src="/img/gilt-header-sprite.png" alt="Gilt Header Sprite">
+      </figure>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <p class="col-8 h3 center mx-auto">
+        Or this,
+      </p>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <figure class="col-6 center mx-auto bg-white p3">
+        <img src="/img/gilt-sprite.png" alt="Gilt Sprite">
+      </figure>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">Problems?</h1>
+      <ul class="col-8 mx-auto">
+        <li>Image is set as a background</li>
+        <li>Tough to resize</li>
+        <li>Have to provide color options in the sprite</li>
+        <li>Not super fun to update</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">You know what's cool?</h1>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">SVGs</h1>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">Why?</h1>
+      <ul class="col-8 mx-auto">
+        <li>Can be styled with CSS</li>
+        <li>Can be resized to infinity</li>
+        <li>Can be used as an image src or as markup</li>
+        <li>They're just text, so we can use all our text tricks</li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">But an SVG <em>Sprite</em>?</h1>
+      <h2 class="h1 center">C'mon now, Why?</h2>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h1 class="h1 center">Best of both worlds</h1>
+      <ul class="col-8 mx-auto">
+        <li>Can be styled with CSS</li>
+        <li>Can be resized to infinity</li>
+        <li>Can be used as an image src or as markup</li>
+        <li>They're just text, so we can use all our text tricks</li>
+      </ul>
+    </div>
+  </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</secion><!-- / presentation -->
+
+{{#extend "meta"}}
+  <script src="/js/modernizr.js"></script>
+{{/extend}}
+
+{{#extend "scripts"}}
+  <script src="/js/jquery-2.1.4.min.js"></script>
+  <script src="/js/showandtell.js"></script>
+  <script>
+    (function($, global, undefined){
+      /*global showandtell */
+      'use strict';
+      // see demo for more conifg options
+      showandtell.init({
+        bigSpace : false
+       // rememberSlide: false
+      });
+    }(this.jQuery, this));
+  </script>
+{{/extend}}
