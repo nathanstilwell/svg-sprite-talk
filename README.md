@@ -1,11 +1,4 @@
-# Starter
+# SVG Icons as Sprites
 
-+ **Server:**: [Expressjs](http://expressjs.com/)
-+ **Build Tool**: [Gulp](http://gulpjs.com/)
+Too soon to tell how this goes yet.
 
-as an example
-
-test
-test2
-test3
-test4
