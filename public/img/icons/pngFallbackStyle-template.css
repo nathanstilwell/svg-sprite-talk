@@ -1,0 +1,9 @@
+<% icons.forEach(function (icon) { %>
+.no-svg .fallback-<%- icon.name %> {
+  background-image: url(<%= backgroundUrl %>);
+  background-position: <%- -icon.left %>px <%- -icon.top %>px;
+  display: inline-block;
+  width: <%- icon.width %>px;
+  height: <%- icon.height %>px;
+}
+<% }) %>

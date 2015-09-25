@@ -1,28 +1,229 @@
 {{#extend "stylesheets"}}
   <link rel="stylesheet" href="/css/basscss.min.css">
+  <link rel="stylesheet" href="/css/semantic-ui-icons.css">
   <link rel="stylesheet" href="/css/main.css">
 {{/extend}}
 
 <secion id="presentation" class="presentation">
 
+
+
+
   <article class="slide flex flex-center">
     <div class="content col-12">
-      <h1 class="h1 center">meh</h1>
+      <h2 class="h1 center">
+        <em>So I was working on this side project ...</em>
+      </h2>
     </div>
   </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>... and we were using this</em>
+      </h2>
+      <figure class="col-6 center mx-auto p3">
+        <img src="/img/semantic-ui.png" alt="Semantic UI">
+      </figure>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>it was great, because with this ...</em>
+      </h2>
+      <pre class="col-6 mx-auto"><code>
+        &lt;i class="user icon"&gt;&lt;/i&gt;
+      </code></pre>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>I could get this</em>
+      </h2>
+      <figure class="col-3 center bg-white mx-auto p3">
+        <i class="user icon sample-semantic-ui-icon"></i>
+      </figure>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>But then, two things ...</em>
+      </h2>
+      <ul class="col-6 mx-auto h2">
+        <li>Site Owners wanted custom icons</li>
+        <li>There are <a href="http://ianfeather.co.uk/ten-reasons-we-switched-from-an-icon-font-to-svg/">problems</a> with <a href="http://mir.aculo.us/2014/10/31/icon-fonts-vs-inline-svg/">icon</a> <a href="https://speakerdeck.com/ninjanails/death-to-icon-fonts">fonts</a></li>
+      </ul>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>So I went with SVGs</em>
+      </h2>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>But I didn't want to lose</em>
+      </h2>
+      <ul class="col-6 mx-auto h2">
+        <li>simplicity of adding them to markup</li>
+        <li>ability to change properties through CSS</li>
+      </ul>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>And I also wanted ...</em>
+      </h2>
+      <ul class="col-6 mx-auto h2">
+        <li>PNG fallbacks</li>
+        <li>a system that was very easy to update</li>
+      </ul>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>So what did I do?</em>
+      </h2>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>I asked Chris Coyier</em>
+      </h2>
+      <figure class="col-6 center mx-auto p3">
+        <img src="/img/css-tricks-article.png" alt="CSS Tricks">
+      </figure>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>He told me to use ...</em>
+      </h2>
+      <p class="col-6 mx-auto center">
+        <a href="https://github.com/FWeinb/grunt-svgstore">grunt-svgstore</a>
+      </p>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>But since I use gulp ...</em>
+      </h2>
+      <p class="col-6 mx-auto center">
+        <a href="https://github.com/w0rm/gulp-svgstore">gulp-svgstore</a>
+      </p>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>And this <a href="https://github.com/w0rm">w0rm</a> guy told me to use ...</em>
+      </h2>
+      <ul class="col-6 mx-auto">
+        <li>
+          <a href="https://github.com/ben-eb/gulp-svgmin">gulp-svgmin</a>
+        </li>
+        <li>
+          <a href="https://github.com/klei/gulp-inject">gulp-inject</a>
+        </li>
+        <li>
+          <a href="https://github.com/w0rm/gulp-svgfallback">gulp-svgfallback</a>
+        </li>
+        <li>
+          <a href="https://github.com/KenPowers/gulp-cheerio">gulp-cheerio</a>
+        </li>
+      </ul>
+    </div>
+  </article>
 
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>And for good measure I threw in ...</em>
+      </h2>
+      <ul class="col-6 mx-auto">
+        <li>
+          <a href="https://github.com/hparra/gulp-rename">gulp-rename</a>
+        </li>
+        <li>
+          <a href="https://github.com/gulpjs/gulp-util">gulp-util</a>
+        </li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>And I came up with <a target="_blank" href="https://gist.github.com/nathanstilwell/287bee2655f005f64d0e">this</a></em>
+      </h2>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>What does it do?</em>
+      </h2>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <ol class="col-8 mx-auto">
+        <li>Reads a folder full of SVG files</li>
+        <li>Minifies all the source</li>
+        <li>Strips all the <code>fill</code> attributes</li>
+        <li>Prefixes the <code>&lt;svg&gt;</code> ids with "icon-"</li>
+        <li>Writes the whole thing to a handlebars partial.</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center">
+        <em>And then ...</em>
+      </h2>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <ol class="col-8 mx-auto">
+        <li>Reads a folder full of SVG files (again)</li>
+        <li>Combines them and writes to a PNG file</li>
+        <li>Generates a stylesheet to reference the PNG sprite</li>
+      </ol>
+    </div>
+  </article>
+
+  <article class="slide flex flex-center">
+    <div class="content col-12">
+      <h2 class="h1 center" style="font-size: 4rem;">Demo</h2>
+    </div>
+  </article>
 
 
 </secion><!-- / presentation -->

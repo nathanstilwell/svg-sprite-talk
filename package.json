@@ -33,9 +33,17 @@
     "body-parser": "^1.13.1",
     "cookie-parser": "^1.3.5",
     "express": "^4.12.4",
+    "gulp-cheerio": "^0.6.2",
+    "gulp-inject": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-svgfallback": "^3.0.2",
+    "gulp-svgmin": "^1.2.0",
+    "gulp-svgstore": "^5.0.5",
+    "gulp-util": "^3.0.6",
     "hbs": "^3.1.0",
     "mkdirp": "^0.5.1",
     "morgan": "^1.6.0",
-    "multer": "^0.1.8"
+    "multer": "^0.1.8",
+    "semantic-ui-icon": "^2.1.4"
   }
 }

@@ -18,8 +18,9 @@ router.get('/', function (req, res) {
   res.render('index', {});
 });
 
+router.get('/demo', function (req, res) {
+  res.render('demo', {});
+});
 
-var nonsenseRouter = require('./nonsense');
-router.use('/nonsense', nonsenseRouter);
 
 module.exports = router;

@@ -6,6 +6,10 @@ html, body  {
   width: 100%;
 }
 
+a {
+  color: #8CC8FD;
+}
+
 .slide {
   height: 100%;
   width: 100%;
@@ -13,4 +17,55 @@ html, body  {
 
 figure img {
   width: 100%;
+}
+
+i.sample-semantic-ui-icon {
+  color: #222;
+  font-size: 4rem;
+}
+
+/* =========================================================*/
+
+.icon-source {
+  display: none;
+}
+
+.icon {
+  fill: #eee;
+  height: 4rem;
+  width: 4rem;
+}
+
+.icon-blue {
+  fill: #008DFF;
+}
+
+.icon-red {
+  fill: red;
+}
+
+.giant .icon {
+  height: 8rem;
+  width: 8rem;
+}
+
+.jumbo .icon {
+  height: 25rem;
+  width: 25rem;
+}
+
+.no-svg .icon {
+  display: none;
+}
+.svg .icon-fallback {
+  display: none;
+}
+
+
+.title.giant {
+  font-size: 4rem;
+}
+
+.vertical-align-bottom {
+  vertical-align: bottom;
 }
